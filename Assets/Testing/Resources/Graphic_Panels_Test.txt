@@ -1,0 +1,10 @@
+wait(1)
+
+[wait]Set_Layer_Media(background nebula #aud true #spd 0.5 #blend blackHole), Set_Layer_Media(background #layer 1 #media "bg bath" #i true)
+Create_Character(Oiloaso #e true #i true)
+Oiloaso "Bath time :)"
+Set_Layer_Media(cinematic #media "~/Graphics/Gallery/space1a")
+Oiloaso "SPACE!"
+Clear_Layer_Media(cinematic #spd 0.5 #blend blur)
+Oiloaso "Argh!"
+Clear_Layer_Media(background #layer 1 #i true)

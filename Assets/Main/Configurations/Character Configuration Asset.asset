@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ce47a73d0da40fca408d499fed8810, type: 3}
+  m_Name: Character Configuration Asset
+  m_EditorClassIdentifier: 
+  characters:
+  - name: <mainChar>
+    alias: You
+    nameColor: {r: 0.9923882, g: 0.7216981, b: 1, a: 1}
+    dialogColor: {r: 1, g: 0.5518868, b: 0.99465764, a: 1}
+    nameFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+    dialogFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+    nameFontSize: 20
+    dialogFontSize: 18
+    dialogBoxVector: {x: 0, y: 0, z: 0}
+    dialogBoxScale: {x: 0, y: 0, z: 0}
+    characterType: 0
+<<<<<<< HEAD
+    sprites:
+      _serializedList: []
+=======
+>>>>>>> c8d4f422 (Whole Template)
+  - name: Omniscient
+    alias: Omni
+    nameColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogColor: {r: 1, g: 0, b: 0, a: 1}
+    nameFont: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    dialogFont: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    nameFontSize: 18
+    dialogFontSize: 16
+    dialogBoxVector: {x: 1.5, y: 600, z: 0}
+    dialogBoxScale: {x: 2.9711, y: 2.9711, z: 2.9711}
+    characterType: 1
+<<<<<<< HEAD
+    sprites:
+      _serializedList: []
+=======
+>>>>>>> c8d4f422 (Whole Template)
+  - name: Oiloaso
+    alias: Chief Oiloaso
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    dialogFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    nameFontSize: 20
+    dialogFontSize: 18
+    dialogBoxVector: {x: 0, y: 0, z: 0}
+    dialogBoxScale: {x: 0, y: 0, z: 0}
+    characterType: 1
+<<<<<<< HEAD
+    sprites:
+      _serializedList: []
+  - name: Execute
+    alias: Execute
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    dialogFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    nameFontSize: 20
+    dialogFontSize: 18
+    dialogBoxVector: {x: 0, y: 0, z: 0}
+    dialogBoxScale: {x: 0, y: 0, z: 0}
+    characterType: 1
+    sprites:
+      _serializedList: []
+  - name: Ivanova
+    alias: Ivanova
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    dialogFont: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    nameFontSize: 20
+    dialogFontSize: 18
+    dialogBoxVector: {x: 0, y: 0, z: 0}
+    dialogBoxScale: {x: 0, y: 0, z: 0}
+    characterType: 1
+    sprites:
+      _serializedList: []
+=======
+>>>>>>> c8d4f422 (Whole Template)

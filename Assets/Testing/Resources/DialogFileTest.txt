@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+enter Execute at 0.5:1 "Hello. I exist."
+[wait]Move_Character(Execute #x 1 #spd 0.5 #sm false)
+Execute.Move(-1)
+enter Ivanova "Hi."
+[wait]Move_Character(Ivanova #x -1 #spd 0.5 #sm false)
+
+Omniscient "Boop."
+=======
+Omniscient "What even are you?"
+>>>>>>> c8d4f422 (Whole Template)
+enter Oiloaso as Oi at 0.5:1 "What do you mean?"
+enter Omniscient [0:TV_On_Light_On, 1:Light_Red] "You are some sort of ghost."
+[wait]Hide(Omniscient Oiloaso #immediate false)
+wait(1), Show(Omniscient)
+Create_Character("Oi as Oiloaso" #e true #i true), Create_Character("Omni as Omniscient")
+Oi "Move(Oi #x 0 #y 0 #spd 1 #sm false) or just in order without specifying Move(Oi 0 0 1 false)"
+[wait]Move_Character(Oi #x 1 #spd 0.5 #sm false)
+[wait]Move_Character(Oi #x 0 #y 1 #spd 0.5 #sm false #immediate true)
+wait(1), Move_Character(Oi #x 1 -1.5 0.5)
+Hide(Oi #spd 0.1)
+Oi "Skiiiip."
+Show(Oi #i true)
+[wait]Oi.Move(0 0 1)
+[wait]Oi.Hide(#spd 0.5), Oi.Show(#spd 0.5)
+Move_Character(Oi #x 0.5 0.5 #immediate true), Move_Character(Oiloaso #x 0.4 0.4 #immediate true)
+Oi "Layering."
+Oiloaso.Show(#i true)
+wait(1), Oiloaso.Set_Priority(3), Oi.Set_Priority(2)
+wait(1), Oiloaso.Set_Priority(2), Oi.Set_Priority(3)
+wait(1), Sort(Oi Oiloaso)
+Oi "COLOR."
+[wait]Oi.Set_Color(#c red #spd 0.5 #i false)
+[wait]Oiloaso.Set_Color(#c green #spd 0.1 #i false)
+wait(1)
+Oi "Stop."
+
+Oi.Un_Highlight(#i true), [wait]Oiloaso.Un_Highlight(#spd 0.2)
+
+wait(1), Oi.Highlight(#spd 0.2), Oiloaso.Highlight(#spd 0.2)
+Oi "Highlight."
+[wait]Un_Highlight(Oi #spd 0.1)
+Oi.Set_Position(1 1)
+Highlight(Oi #o true #i true)
+Oi "Change sprite."
+[wait]Omniscient.Set_Sprite(#sprite TV_Red_Light_Off #layer 0 #speed 0.1)
+Omniscient.Set_Sprite(#sprite Light_White #layer 1 #immediate true)
+[wait]Oi.Flip(#spd 0.8)
+wait(1), Oi.Flip(#i true)
+Oi "Hop."
+Oi.Animate(#ani Hop)
+Oi "Shake."
+Oi.Animate(#ani Shake #st true #e true)
+wait(3), Oi.Animate(#ani Shake #st false #e true)
+Oi "Terminate action broken for color where it triggers too early and does not work at all for highlighting functions, set sprite, or flip. Also, it makes flip trigger twice but with immediate true the second time."
+Oi "Also, animate's terminate action sets it to false without any input."
+Oi "Basically, termination actions trigger immediately."
+Oi "If still broken, go to the first episode of integrating with dialog files."
+Oi 

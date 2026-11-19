@@ -1,0 +1,16 @@
+$Event_Select.eventNum = 0
+$Test.reputation = 0
+Narrator "Reset"
+Roll(3)
+
+if($Event_Select.eventNum == 3)
+{
+    
+    Narrator "Is 3."
+
+    Load(Event_Pools/Test_Pool/3)
+
+}
+
+Narrator "Not 3."
+Load(Event_Pools/Test_Pool/$Event_Select.eventNum)

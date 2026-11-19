@@ -1,0 +1,14 @@
+File[[:space:]]Assets/Main/Resources/Graphics/Background_Videos/Nebula.mp4 filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/burst-llvm-19.dll filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/burst-llvm-21-arm64.dll filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-10.dylib filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/libburst-llvm-21.so filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/Search/98957a664bd18c47a3e41b2a0189ef53.SearchIndexArtifactImporter.196609.b.index filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/burst-llvm-19-arm64.dll filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.so filter=lfs diff=lfs merge=lfs -text
+File[[:space:]]Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/burst-llvm-21.dll filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/libburst-llvm-21.dylib filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.dylib filter=lfs diff=lfs merge=lfs -text
+Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text

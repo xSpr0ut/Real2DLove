@@ -1,0 +1,5 @@
+Narrator "1"
+Show_Gallery_Image(Space1a)
+Narrator "Space."
+Hide_Gallery_Image()
+Load(Event_Pools/Test_Pool/Default)

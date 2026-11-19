@@ -1,0 +1,16 @@
+if($Test.reputation > 0)
+{
+
+    Narrator "Not 0? How?"
+
+}
+else
+{
+
+    Narrator "No rep."
+    Load(Event_Pools/Test_Pool/Default)
+
+}
+
+Narrator "3"
+Load(Event_Pools/Test_Pool/Default)

@@ -1,0 +1,14 @@
+John "Give food."
+"I'm so hungry."
+Ethan "Bam, bam!"
+Me "Why is John on the floor?"
+"He's lonely."
+narrator "Because."
+"Ethan kicked him there."
+Me "Beat him up.{c} Ethan eat him.{a} Now."
+Ethan "Never, John is my buddy.{wa 1} Maybe."
+Me "You sure?{wc 1} Then why is he on the ground?"
+{c} clear
+{a} append
+{wc n} wait then clear after n time
+{wa n} wait then append after n time

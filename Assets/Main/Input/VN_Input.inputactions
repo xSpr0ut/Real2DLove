@@ -1,0 +1,172 @@
+{
+    "version": 1,
+    "name": "VN_Input",
+    "maps": [
+        {
+            "name": "General",
+            "id": "b81a7358-0f25-434a-ab56-35118d1aa3ad",
+            "actions": [
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "49838bb0-9818-499b-8fc3-c5e4ee70369e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "History_Backward",
+                    "type": "Button",
+                    "id": "ad607615-5e73-4111-83e3-d3aec596696a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "History_Forward",
+                    "type": "Button",
+                    "id": "fe57d569-44c8-40f5-84d4-23f4c823c343",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "History_Logs",
+                    "type": "Button",
+                    "id": "9ca4e576-6b39-403f-85fe-c5ba57d6dcbe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quick_Save",
+                    "type": "Button",
+                    "id": "3bf0c249-f166-46c6-97ba-60fbb9318de4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quick_Load",
+                    "type": "Button",
+                    "id": "6a91736d-1107-4d96-aa74-ecbf51f76415",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+<<<<<<< HEAD
+                },
+                {
+                    "name": "Close_Menu",
+                    "type": "Button",
+                    "id": "29c0306d-029b-446f-b755-b481d40e639d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+=======
+>>>>>>> c8d4f422 (Whole Template)
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d7830885-8369-4658-ac81-9327139ce6c3",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1082bfe4-5280-4ad5-98b2-d3bbe15549e2",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e050349b-d576-4b2b-aa30-debd8470412e",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "History_Backward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ec20693b-463f-4c92-9120-367271efc920",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "History_Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b23d0d4-75ed-4f93-8f95-7e0b7e3223e7",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "History_Logs",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52e9da18-57b2-4f69-829e-d905b60d3c39",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quick_Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4318c001-7159-456d-bfe5-9870d00dc91a",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quick_Load",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+<<<<<<< HEAD
+                },
+                {
+                    "name": "",
+                    "id": "334470ab-d2a7-4e8b-8693-ce1b1785a5ed",
+                    "path": "<Keyboard>/{Cancel}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Close_Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+=======
+>>>>>>> c8d4f422 (Whole Template)
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

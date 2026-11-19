@@ -1,0 +1,34 @@
+Play_SFX(RadioStatic #p 0.8 #v 0.5 #loop true)
+Narrator "Stop. Because I want you to." 
+Stop_SFX(RadioStatic), Play_Voice(exclamation #p 0.8 #v 0.5 #loop false)
+
+enter [switch][keep]Omniscient as Om at 0.5:1 [0:TV_On_Light_On, 1:Light_Red] "<size=10>Yey.</size> BAAAAAAAM! Smack and something I just need a long line." 
+
+Play_Music("Calm" #volume 0.5 #channel 1 #sv 0.5), Set_DCP_Sprite("TEMP_DCP")
+
+[default]Ne "<b>Boring</b> <i>music.</i> Shush now{wa 1} or forever." 
+Hide_Dialog_Box(#i true)
+
+Play_Ambience("RainyMood" #volume 0.8 #channel 0 #pitch 0.7), Set_DCP_Sprite("DCP_Omniscient")
+
+wait(1), Show_Dialog_Box()
+
+[switch]Omniscient "No more music." Hide_Dialog_System(#spd 0.2)
+
+Stop_Music(Calm), wait(1), Show_Dialog_System()
+
+[default][keep]Narrator "<color=red>Rain</color>,{wc 4} begone!" Change_Build_Method(instant)
+
+Stop_Ambience(), Destroy_Box_Gameobject(Omniscient), Omniscient.Set_Dialog_Color(blue), Omniscient.Set_Dialog_Size(10), Omniscient.Set_Name_Size(12)
+
+Omniscient "Why. And because of that, you die." Change_Build_Method(#spd 0.05)
+Omniscient.Reset_Box()
+Omniscient "Red?" Change_Build_Method(fade 0.05)
+
+<mainChar> "I'm <mainChar>, and the time is now <time>."
+
+Oiloaso "BAAAAAAM!!!"
+
+Input "Type Name Now"
+
+Oiloaso "<input>, you have exploded."

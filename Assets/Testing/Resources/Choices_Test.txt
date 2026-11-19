@@ -1,0 +1,104 @@
+$money = 10
+$Yes.Man = "Bwam"
+$Yes.Bool = true
+$Yes.Float = 1.3
+$Yes.isBroke = true
+
+enter Oiloaso at 0.5:0 "Give me all you money." 
+
+$money -= 10
+
+Narrator "You now have $money credits."
+
+$Yes.isBroke = true
+$Yes.Man = "Boop"
+$Yes.Bool = !$Yes.Bool
+$Yes.Float = 4.3
+
+Narrator "I shall lift you from poverty." 
+$money += 5
+
+$Yes.isBroke = !$Yes.isBroke
+
+Narrator "Hmm."
+Narrator "You now have $money credits. Broke status: $Yes.isBroke ."
+
+input "Name?"
+
+Set_Player_Name("<input>")
+$Player.playerName2 = <input>
+
+Narrator "You are <playerName>!"
+$Player.playerName = $Player.playerName2
+$Player.playerName += " Swordlandia"
+Narrator "Now <playerName>."
+
+if($money > 10)
+{
+
+    Narrator "Shit, you're so rich."
+
+}
+else
+{
+
+    Narrator "You're a poor pauper."
+
+}
+
+Narrator "I guess there's nothing we can do about that."
+
+enter Omniscient [0:TV_Red_Light_Off, 1:Light_Red] "Would you rather die now or later?"
+
+Choice "Die Now?"
+{
+    #Now
+        Omniscient "Then goodbye."
+        <playerName> "Hey, wait, I've changed my mind!"
+        Omniscient "Dying...{wa 0.5}now."
+    #Later
+        Omniscient "Then, when?"
+        <playerName> "After I drink this smoothie.{wc 1}Okay, now."
+        Omniscient "Then goodbye."
+    #How about never? Please.
+        Omniscient "Impossible."
+        <playerName> "But why tho?"
+        Omnisicent "Because I want to kill you now."
+        "So goodbye."
+    #But why should I die?
+        Omniscient "What do you mean?"
+
+        Choice "Spare?"
+        {
+            #Of course!
+                <playerName> "Fine, guess I die."
+            #Nah man
+                <playerName> "I'll kill you instead!"
+                Omniscient "...How?"
+                <playerName> "With...{wa 0.5}yeah, I've got nothing."
+        }
+
+        Omniscient "Then you die now."
+}
+
+Narrator "Then Omniscient blasted <playerName> into a million pieces."
+"The end."
+"Now it's time to talk about choices."
+
+Choice "Talk?"
+{
+    #Sure.
+        Narrator "If you're here, we will continue the conversation after this aside to space."
+        Omniscient.Hide(), Load(Choice1 #enqueuepriority true)
+    #In a bit.
+        Narrator "No, we will finish first then go to space."
+        Omniscient.Hide(), Load(Choice1 #enqueue true)
+    #The fuck are you talking about?
+        Narrator "After I deal with you, this conversation will not continue."
+        Load(Choice2)
+}
+
+Set_Layer_Media(background "bg beach")
+Narrator "You should only be here if you picked Choice #1 or #2."
+"So let's continue the conversation..."
+"If you picked \"In a bit,\" you will go to space now."

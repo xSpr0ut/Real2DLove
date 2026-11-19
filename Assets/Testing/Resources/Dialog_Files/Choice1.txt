@@ -1,0 +1,4 @@
+Set_Layer_Media(background nebula #blend blur)
+Narrator "Isn't space nice?"
+Me "No."
+Narrator "Fine, then let's leave."

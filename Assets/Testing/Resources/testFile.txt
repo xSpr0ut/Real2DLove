@@ -1,0 +1,11 @@
+John "Give food."
+Ethan "Bam, bam!"
+Me "Why is John on the floor?"
+{name{as character name}{ at x{:y}}{ [layer:angle{ + layer:angle}]} "dialog"} {command(args){, command (args)}}
+John as Dude at 1:0 [0:angle 1] "Hello!" 
+CommandName(arguments)
+NukeFish("name of fish" intensity)
+John "Hepl, I need food according to \"Karl Marx,\" the dude." setScene("Bedroom 4 23), playAudio("Boom Boom" -v 2)
+changeScene("Fish Tank" -s 6)
+narrator "And thus, John began his search for food." setScene("garden")
+"But then Pierre Jacques attacked and burned the entire house to the ground. John could de <color=red>nothing</color> but watch in horror as his good fruend Ethan roasted alive."

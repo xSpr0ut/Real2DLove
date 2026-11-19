@@ -1,0 +1,5 @@
+John "Give food.{a} Please?" [wait]print_1parameter("Nuke said no."), print()
+Ethan "Bam, bam!" print(), print_1parameter("Boop.")
+Me "Why is John on the floor?" print_2parameter("Shit." "Now he's all dirty." "Bam!")
+Nuke "Two commands bam!" [wait]process_1parameter(1), print_1parameter("Boop.")
+Me "(???)"

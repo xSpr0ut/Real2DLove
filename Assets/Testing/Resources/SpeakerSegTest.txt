@@ -1,0 +1,4 @@
+John as Stuffed Animal "Give food."
+Ethan at 0.2:0.2 "Bam, bam!"
+Me as Sister at 0.1:0.1 [0:Angle1, 1:happy] "Why is John on the floor?"
+Ethan at 0.5:0.5 [0:Angle3, 1:menacing] "For us to eat."
